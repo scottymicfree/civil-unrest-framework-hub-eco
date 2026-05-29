@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Unrest NUI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dialogue-box" class="hidden">
+        <div class="npc-header">AI INTERFERENCE DETECTED</div>
+        <div id="dialogue-text">...</div>
+    </div>
+    <div id="interaction-menu" class="hidden">
+        <div class="menu-header">AI INTERACTION</div>
+        <div id="options-container"></div>
+        <div class="menu-footer">ESC to Cancel</div>
+    </div>
+    <div id="naming-box" class="hidden">
+        <div class="menu-header">NAME COMPANION</div>
+        <div style="padding: 15px; display: flex; flex-direction: column; gap: 10px;">
+            <input type="text" id="companion-name-input" placeholder="Enter codename..." autocomplete="off">
+            <button id="confirm-name-btn" class="option-btn">INITIATE BOND</button>
+        </div>
+        <div class="menu-footer">ESC to Cancel</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

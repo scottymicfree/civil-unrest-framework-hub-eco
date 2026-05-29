@@ -1,0 +1,6 @@
+{
+  "name": "Lucy's FiveM Modding",
+  "description": "AGI-OS Standalone Windows Engine Build - FiveM Framework Logic & AI IDE",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
